@@ -1,0 +1,29 @@
+   class Player
+    {
+        public int space;
+        public int roll = 0;
+
+        public virtual void rolldice()
+        {
+            Random rnd = new Random();
+            int roll = rnd.Next(1, 6);
+            Console.WriteLine(roll);
+            
+
+            space =+ roll;
+
+            Console.WriteLine("you are on space " + space);
+
+
+        }
+
+        
+
+    }
+
+
+
+    class spaces
+    {
+        String[] spaces = new string
+    }
