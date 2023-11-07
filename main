@@ -1,0 +1,19 @@
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            // intro
+
+            Console.WriteLine("You haev crash landed on a random island surrounded by far ocean. on this island is an tall middle mountain on the top you can just make out.");
+
+            // first turn
+
+            Player A = new Player();
+            A.rolldice();
+
+
+
+
+        }
+    }
